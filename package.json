@@ -1,0 +1,22 @@
+{
+  "name": "./",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.4",
+    "@types/mysql": "^2.15.26"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.15.0",
+    "bun-mysql": "^0.0.1",
+    "elysia": "^1.0.23",
+    "mysql": "^2.18.1",
+    "prisma": "^5.15.0"
+  }
+}
